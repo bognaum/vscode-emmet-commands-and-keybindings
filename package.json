@@ -1,0 +1,78 @@
+{
+    "name": "adapt-emmet-keymap",
+    "displayName": "adapt-emmet-keymap",
+    "description": "Emmet keymap from me.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "mac": "cmd+shift+a",
+                "key": "ctrl+shift+a",
+                "command": "editor.emmet.action.balanceOut",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+.",
+                "command": "editor.emmet.action.nextEditPoint",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+,",
+                "command": "editor.emmet.action.prevEditPoint",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+alt+.",
+                "key": "ctrl+alt+.",
+                "command": "editor.emmet.action.selectNextItem",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+alt+,",
+                "key": "ctrl+alt+,",
+                "command": "editor.emmet.action.selectPrevItem",
+                "when": "editorTextFocus"
+            },
+
+
+            {
+                "key": "alt+q alt+;",
+                "command": "editor.emmet.action.removeTag",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+q alt+'",
+                "command": "editor.emmet.action.updateTag",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+q alt+w",
+                "command": "editor.emmet.action.wrapWithAbbreviation",
+                "when": "editorTextFocus"
+            },
+
+            
+            {
+                "key": "alt+e alt+;",
+                "command": "editor.emmet.action.removeTag",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+e alt+'",
+                "command": "editor.emmet.action.updateTag",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+e alt+w",
+                "command": "editor.emmet.action.wrapWithAbbreviation",
+                "when": "editorTextFocus"
+            }
+        ]
+    }
+}
