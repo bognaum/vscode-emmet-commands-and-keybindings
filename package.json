@@ -42,6 +42,11 @@
 
 
             {
+                "key": "alt+q alt+e",
+                "command": "emmet.expandAbbreviation",
+                "when": "editorTextFocus"
+            },
+            {
                 "key": "alt+q alt+;",
                 "command": "editor.emmet.action.removeTag",
                 "when": "editorTextFocus"
@@ -58,6 +63,11 @@
             },
 
             
+            {
+                "key": "alt+e alt+e",
+                "command": "emmet.expandAbbreviation",
+                "when": "editorTextFocus"
+            },
             {
                 "key": "alt+e alt+;",
                 "command": "editor.emmet.action.removeTag",
