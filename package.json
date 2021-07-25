@@ -47,6 +47,11 @@
                 "when": "editorTextFocus"
             },
             {
+                "key": "alt+q alt+q",
+                "command": "emmet.expandAbbreviation",
+                "when": "editorTextFocus"
+            },
+            {
                 "key": "alt+q alt+;",
                 "command": "editor.emmet.action.removeTag",
                 "when": "editorTextFocus"
