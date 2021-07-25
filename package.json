@@ -73,6 +73,45 @@
                 "command": "editor.emmet.action.wrapWithAbbreviation",
                 "when": "editorTextFocus"
             }
+        ],
+        "menus": {
+            "editor/title/context": [
+                {"command": "workbench.action.showEmmetCommands"},
+                {
+                    "submenu": "emmet-all-commands"
+                }
+            ],
+            "emmet-all-commands": [
+                {"command": "editor.emmet.action.balanceIn"},
+                {"command": "editor.emmet.action.balanceOut"},
+                {"command": "editor.emmet.action.decrementNumberByOne"},
+                {"command": "editor.emmet.action.decrementNumberByOneTenth"},
+                {"command": "editor.emmet.action.decrementNumberByTen"},
+                {"command": "editor.emmet.action.evaluateMathExpression"},
+                {"command": "editor.emmet.action.incrementNumberByOne"},
+                {"command": "editor.emmet.action.incrementNumberByOneTenth"},
+                {"command": "editor.emmet.action.incrementNumberByTen"},
+                {"command": "editor.emmet.action.matchTag"},
+                {"command": "editor.emmet.action.mergeLines"},
+                {"command": "editor.emmet.action.nextEditPoint"},
+                {"command": "editor.emmet.action.prevEditPoint"},
+                {"command": "editor.emmet.action.reflectCSSValue"},
+                {"command": "editor.emmet.action.removeTag"},
+                {"command": "editor.emmet.action.selectNextItem"},
+                {"command": "editor.emmet.action.selectPrevItem"},
+                {"command": "editor.emmet.action.splitJoinTag"},
+                {"command": "editor.emmet.action.toggleComment"},
+                {"command": "editor.emmet.action.updateImageSize"},
+                {"command": "editor.emmet.action.updateTag"},
+                {"command": "editor.emmet.action.wrapWithAbbreviation"},
+                {"command": "emmet.expandAbbreviation"}
+            ]
+        },
+        "submenus": [
+            {
+                "id": "emmet-all-commands",
+                "label": "Emmet"
+            }
         ]
     }
 }
