@@ -90,6 +90,13 @@
             }
         ],
         "menus": {
+            "editor/title": [
+                {"command": "workbench.action.showEmmetCommands", "group": "2"},
+                {
+                    "submenu": "emmet-all-commands",
+                    "group": "2"
+                }
+            ],
             "editor/title/context": [
                 {"command": "workbench.action.showEmmetCommands"},
                 {
