@@ -97,12 +97,6 @@
                     "group": "2"
                 }
             ],
-            "editor/title/context": [
-                {"command": "workbench.action.showEmmetCommands"},
-                {
-                    "submenu": "emmet-all-commands"
-                }
-            ],
             "emmet-all-commands": [
                 {"command": "editor.emmet.action.balanceIn"},
                 {"command": "editor.emmet.action.balanceOut"},
