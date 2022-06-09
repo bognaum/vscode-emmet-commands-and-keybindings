@@ -1,7 +1,7 @@
 {
-    "name": "adapt-emmet-keymap",
-    "displayName": "adapt-emmet-keymap",
-    "description": "Emmet keymap from me.",
+    "name": "emmet-commands-and-keybindings",
+    "displayName": "Emmet commands and keybindings",
+    "description": "Added to editor title menu of all Emmet commands amd some keybindings.",
     "icon": "./IMG/Emmet-01.png",
     "version": "0.0.1",
     "engines": {

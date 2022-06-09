@@ -1,4 +1,4 @@
-# README
+# Emmet commands and keybindings
 Emmet has three base abilities:
 
 1. abbreviations expanding
