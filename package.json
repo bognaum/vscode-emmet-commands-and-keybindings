@@ -43,33 +43,6 @@
 
 
             {
-                "key": "alt+q alt+e",
-                "command": "emmet.expandAbbreviation",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "alt+q alt+q",
-                "command": "emmet.expandAbbreviation",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "alt+q alt+;",
-                "command": "editor.emmet.action.removeTag",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "alt+q alt+'",
-                "command": "editor.emmet.action.updateTag",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "alt+q alt+w",
-                "command": "editor.emmet.action.wrapWithAbbreviation",
-                "when": "editorTextFocus"
-            },
-
-            
-            {
                 "key": "alt+e alt+e",
                 "command": "emmet.expandAbbreviation",
                 "when": "editorTextFocus"
