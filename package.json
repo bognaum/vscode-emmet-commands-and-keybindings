@@ -100,8 +100,7 @@
                 {"command": "editor.emmet.action.splitJoinTag",              "group": "2"},
                 {"command": "editor.emmet.action.updateTag",                 "group": "2"},
                 {"command": "editor.emmet.action.wrapWithAbbreviation",      "group": "2"},
-
-                {"command": "editor.emmet.action.toggleComment",             "group": "3"},
+                {"command": "editor.emmet.action.toggleComment",             "group": "2"},
 
                 {"command": "editor.emmet.action.reflectCSSValue",           "group": "4"},
                 {"command": "editor.emmet.action.mergeLines",                "group": "4"},
