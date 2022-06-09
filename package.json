@@ -44,7 +44,7 @@
 
             {
                 "key": "alt+e alt+e",
-                "command": "emmet.expandAbbreviation",
+                "command": "editor.emmet.action.expandAbbreviation",
                 "when": "editorTextFocus"
             },
             {
@@ -63,6 +63,16 @@
                 "when": "editorTextFocus"
             }
         ],
+        "commands": [
+            {
+            	"command": "editor.emmet.action.expandAbbreviation",
+            	"title": "Expand Abbreviation"
+            },
+            {
+            	"command": "emmet.expandAbbreviation",
+            	"title": "Emmet: Expand Abbreviation"
+            }
+        ],
         "menus": {
             "editor/title": [
                 {"command": "workbench.action.showEmmetCommands", "group": "2"},
@@ -72,6 +82,7 @@
                 }
             ],
             "emmet-all-commands": [
+                {"command": "editor.emmet.action.expandAbbreviation", "group": "1"},
                 {"command": "editor.emmet.action.balanceIn"},
                 {"command": "editor.emmet.action.balanceOut"},
                 {"command": "editor.emmet.action.decrementNumberByOne"},
@@ -93,8 +104,7 @@
                 {"command": "editor.emmet.action.toggleComment"},
                 {"command": "editor.emmet.action.updateImageSize"},
                 {"command": "editor.emmet.action.updateTag"},
-                {"command": "editor.emmet.action.wrapWithAbbreviation"},
-                {"command": "emmet.expandAbbreviation"}
+                {"command": "editor.emmet.action.wrapWithAbbreviation"}
             ]
         },
         "submenus": [
