@@ -61,6 +61,11 @@
                 "key": "alt+e alt+w",
                 "command": "editor.emmet.action.wrapWithAbbreviation",
                 "when": "editorTextFocus"
+            },
+            {
+                "key": "alt+e alt+/",
+                "command": "editor.emmet.action.toggleComment",
+                "when": "editorTextFocus"
             }
         ],
         "commands": [
@@ -95,7 +100,7 @@
                 {"command": "editor.emmet.action.splitJoinTag",              "group": "2"},
                 {"command": "editor.emmet.action.updateTag",                 "group": "2"},
                 {"command": "editor.emmet.action.wrapWithAbbreviation",      "group": "2"},
-                
+
                 {"command": "editor.emmet.action.toggleComment",             "group": "3"},
 
                 {"command": "editor.emmet.action.reflectCSSValue",           "group": "4"},
@@ -106,7 +111,7 @@
                 {"command": "editor.emmet.action.incrementNumberByOne",      "group": "5"},
                 {"command": "editor.emmet.action.incrementNumberByOneTenth", "group": "5"},
                 {"command": "editor.emmet.action.incrementNumberByTen",      "group": "5"},
-                
+
                 {"command": "editor.emmet.action.decrementNumberByOne",      "group": "6"},
                 {"command": "editor.emmet.action.decrementNumberByOneTenth", "group": "6"},
                 {"command": "editor.emmet.action.decrementNumberByTen",      "group": "6"}
