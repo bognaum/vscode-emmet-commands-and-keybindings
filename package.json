@@ -70,12 +70,12 @@
         ],
         "commands": [
             {
-            	"command": "editor.emmet.action.expandAbbreviation",
-            	"title": "Expand Abbreviation"
+                "command": "editor.emmet.action.expandAbbreviation",
+                "title": "Expand Abbreviation"
             },
             {
-            	"command": "emmet.expandAbbreviation",
-            	"title": "Emmet: Expand Abbreviation"
+                "command": "emmet.expandAbbreviation",
+                "title": "Emmet: Expand Abbreviation"
             }
         ],
         "menus": {
