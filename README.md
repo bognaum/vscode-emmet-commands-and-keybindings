@@ -1,13 +1,10 @@
 # README
-## This is the README for your extension "adapt-emmet-keymap"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+Emmet has three base abilities:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+1. abbreviations expanding
+2. Emmet's text processing commands
+3. Emmet's snippets
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+The text processing commands may be very useful, but to use the commands, you need some way to run this commands. 
 
-**Enjoy!**
+This extension has menu of the editor title with all Emmet's commands. Some commands have keybindings, which yu may see, if you will open this menu.
