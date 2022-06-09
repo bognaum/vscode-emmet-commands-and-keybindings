@@ -76,6 +76,95 @@
             {
                 "command": "emmet.expandAbbreviation",
                 "title": "Emmet: Expand Abbreviation"
+            },
+
+            {
+                "command": "editor.emmet.action.balanceIn",
+                "title": "HTML - Balance In"
+            },
+            {
+                "command": "editor.emmet.action.balanceOut",
+                "title": "HTML - Balance Out"
+            },
+            {
+                "command": "editor.emmet.action.matchTag",
+                "title": "HTML - Match Tag"
+            },
+            {
+                "command": "editor.emmet.action.nextEditPoint",
+                "title": "HTML - Next Edit Point"
+            },
+            {
+                "command": "editor.emmet.action.prevEditPoint",
+                "title": "HTML - Prev Edit Point"
+            },
+            {
+                "command": "editor.emmet.action.removeTag",
+                "title": "HTML - Remove Tag"
+            },
+            {
+                "command": "editor.emmet.action.selectNextItem",
+                "title": "HTML - Select Next Item"
+            },
+            {
+                "command": "editor.emmet.action.selectPrevItem",
+                "title": "HTML - Select Previous Item"
+            },
+            {
+                "command": "editor.emmet.action.splitJoinTag",
+                "title": "HTML - Split / Join Tag"
+            },
+            {
+                "command": "editor.emmet.action.updateTag",
+                "title": "HTML - Update Tag"
+            },
+            {
+                "command": "editor.emmet.action.wrapWithAbbreviation",
+                "title": "HTML - Wrap With Abbreviation"
+            },
+            {
+                "command": "editor.emmet.action.toggleComment",
+                "title": "HTML - Toggle Comment"
+            },
+            {
+                "command": "editor.emmet.action.reflectCSSValue",
+                "title": "Reflect CSS Value"
+            },
+            {
+                "command": "editor.emmet.action.mergeLines",
+                "title": "Merge Lines"
+            },
+            {
+                "command": "editor.emmet.action.updateImageSize",
+                "title": "Update ImageSize"
+            },
+            {
+                "command": "editor.emmet.action.evaluateMathExpression",
+                "title": "Evaluate Math Expression"
+            },
+            {
+                "command": "editor.emmet.action.incrementNumberByOne",
+                "title": "Number - Increment - ByOne"
+            },
+            {
+                "command": "editor.emmet.action.incrementNumberByOneTenth",
+                "title": "Number - Increment - By One Tenth"
+            },
+            {
+                "command": "editor.emmet.action.incrementNumberByTen",
+                "title": "Number - Increment - By Ten"
+            },
+            {
+                "command": "editor.emmet.action.decrementNumberByOne",
+                "title": "Number - Decrement - By One"
+            },
+            {
+                "command": "editor.emmet.action.decrementNumberByOneTenth",
+                "title": "Number - Decrement - By One Tenth"
+            },
+            {
+                "command": "editor.emmet.action.decrementNumberByTen",
+                "title": "Number - Decrement - By Ten"
             }
         ],
         "menus": {
