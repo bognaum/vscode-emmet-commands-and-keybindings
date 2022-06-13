@@ -2,7 +2,7 @@
     "name": "emmet-commands-and-keybindings",
     "displayName": "Emmet commands and keybindings",
     "description": "Added to editor title menu of all Emmet commands amd some keybindings.",
-    "icon": "./IMG/emmet-bognaum-4.png",
+    "icon": "IMG/emmet-bognaum-4.png",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.58.0"
