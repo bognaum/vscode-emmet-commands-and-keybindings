@@ -12,6 +12,10 @@ The text processing commands may be very useful, but to use the commands, you ne
 - Added keybindings, which you may use. If you open the menu - you may see this keybindings.
 - You may add your own keybindings and see it in this menu.
 
-![](https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/Screenshot-01.png)
-![](https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/Screenshot-02.png)
-![](https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/Screenshot-03.png)
+[hr01]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/Screenshot-01.png
+[hr02]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/Screenshot-02.png
+[hr03]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/Screenshot-03.png
+
+[![hr01]][hr01]
+[![hr02]][hr02]
+[![hr03]][hr03]
