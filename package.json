@@ -4,6 +4,11 @@
     "description": "Added to editor title menu of all Emmet commands amd some keybindings.",
     "icon": "emmet-bognaum-4.png",
     "version": "1.0.0",
+    "publisher": "Bognaum",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bognaum/vscode-emmet-commands-and-keybindings.git"
+    },
     "engines": {
         "vscode": "^1.58.0"
     },
