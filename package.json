@@ -85,23 +85,23 @@
 
             {
                 "command": "editor.emmet.action.balanceIn",
-                "title": "Emmet: HTML - Balance In"
+                "title": "Emmet: HTML - Select - Balance In"
             },
             {
                 "command": "editor.emmet.action.balanceOut",
-                "title": "Emmet: HTML - Balance Out"
+                "title": "Emmet: HTML - Select - Balance Out"
             },
             {
                 "command": "editor.emmet.action.matchTag",
-                "title": "Emmet: HTML - Match Tag"
+                "title": "Emmet: HTML - Go to - Match Tag"
             },
             {
                 "command": "editor.emmet.action.nextEditPoint",
-                "title": "Emmet: HTML - Next Edit Point"
+                "title": "Emmet: HTML - Go to - Next Edit Point"
             },
             {
                 "command": "editor.emmet.action.prevEditPoint",
-                "title": "Emmet: HTML - Prev Edit Point"
+                "title": "Emmet: HTML - Go to - Prev Edit Point"
             },
             {
                 "command": "editor.emmet.action.removeTag",
@@ -109,11 +109,11 @@
             },
             {
                 "command": "editor.emmet.action.selectNextItem",
-                "title": "Emmet: HTML - Select Next Item"
+                "title": "Emmet: HTML - Select - Next Item"
             },
             {
                 "command": "editor.emmet.action.selectPrevItem",
-                "title": "Emmet: HTML - Select Previous Item"
+                "title": "Emmet: HTML - Select - Previous Item"
             },
             {
                 "command": "editor.emmet.action.splitJoinTag",
@@ -121,7 +121,7 @@
             },
             {
                 "command": "editor.emmet.action.updateTag",
-                "title": "Emmet: HTML - Update Tag"
+                "title": "Emmet: HTML - Rename Tag"
             },
             {
                 "command": "editor.emmet.action.wrapWithAbbreviation",
@@ -190,8 +190,8 @@
                 {"command": "editor.emmet.action.prevEditPoint",             "group": "2"},
                 {"command": "editor.emmet.action.selectNextItem",            "group": "2"},
                 {"command": "editor.emmet.action.selectPrevItem",            "group": "2"},
-                {"command": "editor.emmet.action.splitJoinTag",              "group": "2"},
                 
+                {"command": "editor.emmet.action.splitJoinTag",              "group": "3"},
                 {"command": "editor.emmet.action.removeTag",                 "group": "3"},
                 {"command": "editor.emmet.action.updateTag",                 "group": "3"},
                 {"command": "editor.emmet.action.wrapWithAbbreviation",      "group": "3"},
