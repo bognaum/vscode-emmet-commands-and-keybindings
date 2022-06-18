@@ -1,3 +1,10 @@
+[hr01]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-01.png
+[hr02]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-02.png
+[hr03]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-03.png
+[hr04]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-04.png
+
+[Emmet documentation]: (https://docs.emmet.io/)
+
 # Emmet commands and keybindings
 According to [Emmet documentation] Emmet has three base features:
 
@@ -29,13 +36,6 @@ But you need some way to use Emmet actions. This extension suggest you a special
 - Assigned keybindings does not correspond to the keybindings of [Emmet documentation].
 
 ## Screenshots
-
-[hr01]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-01.png
-[hr02]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-02.png
-[hr03]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-03.png
-[hr04]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-04.png
-
-[Emmet documentation]: (https://docs.emmet.io/)
 
 [![hr02]][hr02]
 [![hr03]][hr03]
