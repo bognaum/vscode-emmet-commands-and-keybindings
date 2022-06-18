@@ -183,32 +183,33 @@
             "emmet-all-commands": [
                 {"command": "editor.emmet.action.expandAbbreviation",        "group": "1"},
 
-                {"command": "editor.emmet.action.balanceIn",                 "group": "2"},
-                {"command": "editor.emmet.action.balanceOut",                "group": "2"},
                 {"command": "editor.emmet.action.matchTag",                  "group": "2"},
                 {"command": "editor.emmet.action.nextEditPoint",             "group": "2"},
                 {"command": "editor.emmet.action.prevEditPoint",             "group": "2"},
-                {"command": "editor.emmet.action.selectNextItem",            "group": "2"},
-                {"command": "editor.emmet.action.selectPrevItem",            "group": "2"},
+
+                {"command": "editor.emmet.action.balanceIn",                 "group": "3"},
+                {"command": "editor.emmet.action.balanceOut",                "group": "3"},
+                {"command": "editor.emmet.action.selectNextItem",            "group": "3"},
+                {"command": "editor.emmet.action.selectPrevItem",            "group": "3"},
                 
-                {"command": "editor.emmet.action.splitJoinTag",              "group": "3"},
-                {"command": "editor.emmet.action.removeTag",                 "group": "3"},
-                {"command": "editor.emmet.action.updateTag",                 "group": "3"},
-                {"command": "editor.emmet.action.wrapWithAbbreviation",      "group": "3"},
-                {"command": "editor.emmet.action.toggleComment",             "group": "3"},
+                {"command": "editor.emmet.action.splitJoinTag",              "group": "4"},
+                {"command": "editor.emmet.action.removeTag",                 "group": "4"},
+                {"command": "editor.emmet.action.updateTag",                 "group": "4"},
+                {"command": "editor.emmet.action.wrapWithAbbreviation",      "group": "4"},
+                {"command": "editor.emmet.action.toggleComment",             "group": "4"},
 
-                {"command": "editor.emmet.action.reflectCSSValue",           "group": "4"},
-                {"command": "editor.emmet.action.mergeLines",                "group": "4"},
-                {"command": "editor.emmet.action.updateImageSize",           "group": "4"},
-                {"command": "editor.emmet.action.evaluateMathExpression",    "group": "4"},
+                {"command": "editor.emmet.action.reflectCSSValue",           "group": "5"},
+                {"command": "editor.emmet.action.mergeLines",                "group": "5"},
+                {"command": "editor.emmet.action.updateImageSize",           "group": "5"},
+                {"command": "editor.emmet.action.evaluateMathExpression",    "group": "5"},
 
-                {"command": "editor.emmet.action.incrementNumberByOne",      "group": "5"},
-                {"command": "editor.emmet.action.incrementNumberByOneTenth", "group": "5"},
-                {"command": "editor.emmet.action.incrementNumberByTen",      "group": "5"},
+                {"command": "editor.emmet.action.incrementNumberByOne",      "group": "6"},
+                {"command": "editor.emmet.action.incrementNumberByOneTenth", "group": "6"},
+                {"command": "editor.emmet.action.incrementNumberByTen",      "group": "6"},
 
-                {"command": "editor.emmet.action.decrementNumberByOne",      "group": "6"},
-                {"command": "editor.emmet.action.decrementNumberByOneTenth", "group": "6"},
-                {"command": "editor.emmet.action.decrementNumberByTen",      "group": "6"}
+                {"command": "editor.emmet.action.decrementNumberByOne",      "group": "7"},
+                {"command": "editor.emmet.action.decrementNumberByOneTenth", "group": "7"},
+                {"command": "editor.emmet.action.decrementNumberByTen",      "group": "7"}
             ]
         },
         "submenus": [
