@@ -3,10 +3,8 @@
 [hr03]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-03.png
 [hr04]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-04.png
 
-[Emmet documentation]: (https://docs.emmet.io/)
-
 # Emmet commands and keybindings
-According to [Emmet documentation] Emmet has three base features:
+According to [Emmet documentation](https://docs.emmet.io/) Emmet has three base features:
 
 1. abbreviation expanding
 2. Emmet actions - text processing commands
@@ -32,8 +30,8 @@ But you need some way to use Emmet actions. This extension suggest you a special
 - You may add your own keybindings and may see it in menu.
 
 ## Notes:
-- Not all commands existing in the [Emmet documentation] has implemented in VS Code.
-- Assigned keybindings does not correspond to the keybindings of [Emmet documentation].
+- Not all commands existing in the [Emmet documentation](https://docs.emmet.io/) has implemented in VS Code.
+- Assigned keybindings does not correspond to the keybindings of [Emmet documentation](https://docs.emmet.io/).
 
 ## Screenshots
 
