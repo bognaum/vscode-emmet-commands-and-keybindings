@@ -149,7 +149,7 @@
             },
             {
                 "command": "editor.emmet.action.incrementNumberByOne",
-                "title": "Emmet: Number - Increment - ByOne"
+                "title": "Emmet: Number - Increment - By One"
             },
             {
                 "command": "editor.emmet.action.incrementNumberByOneTenth",
