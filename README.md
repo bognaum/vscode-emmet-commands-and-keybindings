@@ -1,5 +1,5 @@
 [hr01]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-01.png
-[hr02]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-02.png
+[hr02]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-02-02.png
 [hr03]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-03.png
 [hr04]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-04.png
 
@@ -10,6 +10,7 @@ According to [Emmet documentation](https://docs.emmet.io/) Emmet has three base 
 2. Emmet actions - text processing commands
 3. Emmet snippets 
 
+## Emmet actions
 Emmet actions may be very useful. For example:
 
 - [remove element](https://docs.emmet.io/actions/remove-tag/)
@@ -21,16 +22,16 @@ Emmet actions may be very useful. For example:
 - rename element
 - and some other
 
-But you need some way to use Emmet actions. This extension suggest you a special menu, where you may see all Emmet commands, which existed in VS Code, and all assigned keybindings.
+But you need some way to use Emmet actions, and this extension will help you. This extension offers you a special menu in which you can see all Emmet commands that existed in VS Code and all the assigned keybindings.
 
 ## In this extension:
-- Added menu of the editor title with all Emmet commands. 
-- Already existing in VS Code command titles changed to be more understandable 
-- Added some keybindings. You may see the keybindings if you open the menu.
-- You may add your own keybindings and may see it in menu.
+- Creates a submenu of the editor title menu with all existing in VS Code Emmet commands. 
+- Added a keybinding system for the most used commands. You may see the keybindings if you open the above submenu.
+- The titles of existing in VS Code command have changed to more understandable.
+- If you will add your own keybindings - you will see your keybindings in the above submenu.
 
 ## Notes:
-- Not all commands existing in the [Emmet documentation](https://docs.emmet.io/) has implemented in VS Code.
+- Not all commands existing in the [Emmet documentation](https://docs.emmet.io/) have implemented in VS Code.
 - Assigned keybindings does not correspond to the keybindings of [Emmet documentation](https://docs.emmet.io/).
 
 ## Screenshots
