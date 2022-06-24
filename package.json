@@ -13,7 +13,38 @@
         "vscode": "^1.58.0"
     },
     "categories": [
-        "Keymaps"
+        "Keymaps",
+        "Other"
+    ],
+    "keywords": [
+        "Emmet",
+        "Emmet action",
+        "Emmet actions",
+        "Emmet command",
+        "Emmet commands",
+        "Emmet keybindings",
+        "Emmet shortcuts",
+        "Emmet keymap",
+        "Emmet menu",
+        "Emmet features",
+        "use Emmet",
+        "HTML",
+        "HTML layout",
+        "fast HTML layout",
+        "edit HTML",
+        "fast edit HTML",
+        "HTML element",
+        "wrap with abbreviation",
+        "balance in",
+        "balance inward",
+        "balance out",
+        "balance outward",
+        "select tag",
+        "select tag content",
+        "edit tag",
+        "delete tag",
+        "remove tag",
+        "rename tag"
     ],
     "contributes": {
         "keybindings": [
