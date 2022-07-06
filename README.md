@@ -1,6 +1,6 @@
-[hr01]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/Screenshot-01.png
-[hr02]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/Screenshot-02.png
-[hr03]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/Screenshot-03.png
+[hr01]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-01.png
+[hr02]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-02.png
+[hr03]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-03.png
 
 # Emmet commands and keybindings
 According to [Emmet documentation](https://docs.emmet.io/) Emmet has three base features:
