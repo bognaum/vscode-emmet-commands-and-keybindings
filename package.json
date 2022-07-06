@@ -79,29 +79,39 @@
 
 
             {
-                "key": "alt+e alt+e",
+                "key": "alt+e e",
                 "command": "editor.emmet.action.expandAbbreviation",
-                "when": "editorTextFocus"
+                "when": "editorFocus && !editorReadonly"
             },
             {
-                "key": "alt+e alt+;",
+                "key": "alt+e d",
                 "command": "editor.emmet.action.removeTag",
-                "when": "editorTextFocus"
+                "when": "editorFocus && !editorReadonly"
             },
             {
-                "key": "alt+e alt+'",
+                "key": "alt+e r",
                 "command": "editor.emmet.action.updateTag",
-                "when": "editorTextFocus"
+                "when": "editorFocus && !editorReadonly"
             },
             {
-                "key": "alt+e alt+w",
+                "key": "alt+e w",
                 "command": "editor.emmet.action.wrapWithAbbreviation",
-                "when": "editorTextFocus"
+                "when": "editorFocus && !editorReadonly"
             },
             {
                 "key": "alt+e alt+/",
                 "command": "editor.emmet.action.toggleComment",
-                "when": "editorTextFocus"
+                "when": "editorFocus && !editorReadonly"
+            },
+            {
+                "key": "alt+e m",
+                "command": "editor.emmet.action.mergeLines",
+                "when": "editorFocus && !editorReadonly"
+            },
+            {
+                "key": "alt+e =",
+                "command": "editor.emmet.action.evaluateMathExpression",
+                "when": "editorFocus && !editorReadonly"
             }
         ],
         "commands": [
@@ -136,7 +146,7 @@
             },
             {
                 "command": "editor.emmet.action.removeTag",
-                "title": "Emmet: HTML - Remove Tag"
+                "title": "Emmet: HTML - Delete Tag"
             },
             {
                 "command": "editor.emmet.action.selectNextItem",

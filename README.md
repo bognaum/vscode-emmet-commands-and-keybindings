@@ -1,7 +1,6 @@
-[hr01]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-01.png
-[hr02]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-02-02.png
-[hr03]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-03.png
-[hr04]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-04.png
+[hr01]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/Screenshot-01.png
+[hr02]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/Screenshot-02.png
+[hr03]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/Screenshot-03.png
 
 # Emmet commands and keybindings
 According to [Emmet documentation](https://docs.emmet.io/) Emmet has three base features:
@@ -30,12 +29,28 @@ But you need some way to use Emmet actions, and this extension will help you. Th
 - The titles of existing in VS Code command have changed to more understandable.
 - If you will add your own keybindings - you will see your keybindings in the above submenu.
 
+## Keybindings
+- ```Alt+E, E``` - Expand abbreviation.
+- ```Ctrl+Shift+A``` Balance out.
+
+- ```Alt+<``` / ```Alt+>``` - Next / previous edit point.
+- ```Ctrl+Alt+<``` / ```Ctrl+Alt+>``` - Next / previous item.
+
+- ```Alt+E, D``` - Delete tag.
+- ```Alt+E, R``` - Rename tag.
+- ```Alt+E, W``` - Wrap with abbreviation.
+- ```Alt+E, M``` - Merge lines.
+- ```Alt+E, =``` - Evaluate math expression.
+- ```Alt+E, Alt+/``` - Toggle comment (to HTML only).
+
 ## Notes:
 - Not all commands existing in the [Emmet documentation](https://docs.emmet.io/) have implemented in VS Code.
 - Assigned keybindings does not correspond to the keybindings of [Emmet documentation](https://docs.emmet.io/).
 
 ## Screenshots
 
+[![hr01]][hr01]
+
 [![hr02]][hr02]
+
 [![hr03]][hr03]
-[![hr04]][hr04]
