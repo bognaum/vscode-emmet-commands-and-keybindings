@@ -33,8 +33,8 @@ But you need some way to use Emmet actions, and this extension will help you. Th
 - ```Alt+E, E``` - Expand abbreviation.
 - ```Ctrl+Shift+A``` Balance out.
 
-- ```Alt+<``` / ```Alt+>``` - Next / previous edit point.
-- ```Ctrl+Alt+<``` / ```Ctrl+Alt+>``` - Next / previous item.
+- ```Alt+<``` / ```Alt+>``` - Previous / next edit point.
+- ```Ctrl+Alt+<``` / ```Ctrl+Alt+>``` - Previous / next item.
 
 - ```Alt+E, D``` - Delete tag.
 - ```Alt+E, R``` - Rename tag.
