@@ -4,6 +4,9 @@ All notable changes to the "adapt-emmet-keymap" extension will be documented in 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.2]
+- changed README.md
+
 ## [2.0.1]
 - changed README.md
 
