@@ -4,6 +4,9 @@ All notable changes to the "adapt-emmet-keymap" extension will be documented in 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.1]
+- changed README.md
+
 ## [2.0.0]
 - changed some keybindings:
 	- ```Alt+E, E``` - ~~Alt+E, Alt+E~~ - Expand abbreviation.
