@@ -1,4 +1,4 @@
-[hr01]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-01.png
+[hr01]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-01-01.png
 [hr02]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-02.png
 [hr03]: https://bognaum.github.io/vscode-emmet-commands-and-keybindings/IMG/screenshot-03.png
 
@@ -47,10 +47,40 @@ But you need some way to use Emmet actions, and this extension will help you. Th
 - Not all commands existing in the [Emmet documentation](https://docs.emmet.io/) have implemented in VS Code.
 - Assigned keybindings does not correspond to the keybindings of [Emmet documentation](https://docs.emmet.io/).
 
-## Screenshots
+## Demos
+### Wrap with abbreviation 
+Creating a list from the some lines if text (```Alt+E, W```).
+
+![Wrap](IMG/emmet-wrap-03.gif)
+
+Wrapping a piece of code in an HTML element (```Alt+E, W```).
+
+![Wrap](IMG/emmet-wrap-04.gif)
+
+### Rename tag 
+
+```Alt+E, R```
+
+![Rename](IMG/emmet-rename-01.gif)
+
+### Delete tag 
+
+```Alt+E, D```
+
+![Rename](IMG/emmet-delete-02.gif)
+![Rename](IMG/emmet-delete-01.gif)
+
+### Items and edit points 
+
+- ```Alt+<``` / ```Alt+>``` - Previous / next edit point.
+- ```Ctrl+Alt+<``` / ```Ctrl+Alt+>``` - Previous / next item.
+
+![Rename](IMG/emmet-items-edit-points-01.gif)
+
+## Menu of all Emmet commands.
 
 [![hr01]][hr01]
 
-[![hr02]][hr02]
+<!-- [![hr02]][hr02] -->
 
-[![hr03]][hr03]
+<!-- [![hr03]][hr03] -->
