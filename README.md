@@ -48,6 +48,11 @@ But you need some way to use Emmet actions, and this extension will help you. Th
 - Assigned keybindings does not correspond to the keybindings of [Emmet documentation](https://docs.emmet.io/).
 
 ## Demos
+### Balance out
+```Ctrl+Shift+A``` - Select the content of an element, then the element with tags, then the content of parent element, ect.
+
+![Balance out](IMG/emmet-balance-out-01.gif)
+
 ### Wrap with abbreviation 
 Creating a list from the some lines if text (```Alt+E, W```).
 
