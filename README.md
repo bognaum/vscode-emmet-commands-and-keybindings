@@ -54,7 +54,7 @@ But you need some way to use Emmet actions, and this extension will help you. Th
 ![Balance out](IMG/emmet-balance-out-01.gif)
 
 ### Wrap with abbreviation 
-Creating a list from the some lines if text (```Alt+E, W```).
+Creating a list from the some lines of text (```Alt+E, W```).
 
 ![Wrap](IMG/emmet-wrap-03.gif)
 
