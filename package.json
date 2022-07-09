@@ -1,7 +1,7 @@
 {
     "name": "emmet-commands-and-keybindings",
     "displayName": "Emmet commands and keybindings",
-    "description": "Added to editor title menu of all Emmet commands amd some keybindings.",
+    "description": "Keybindings to Emmet actions. Menu of all Emmet actions.",
     "icon": "emmet-bognaum-4.png",
     "version": "2.0.2",
     "publisher": "Bognaum",
