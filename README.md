@@ -39,7 +39,7 @@ Emmet actions may be very useful. For example:
 
 ## In this extension:
 - Added a keybinding system for the most used commands. You may see the keybindings if you open the above submenu.
-- Creates a submenu of the editor title menu with all existing in VS Code Emmet commands. 
+- Creates a [submenu](#menu-of-all-emmet-commands) of the editor title menu with all existing in VS Code Emmet commands. 
 - The titles of existing in VS Code command have changed to more understandable.
 - If you will add your own keybindings - you will see your keybindings in the above submenu.
 
