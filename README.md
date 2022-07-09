@@ -14,16 +14,28 @@ We all know about the first feature, but I suggest you pay attention to Emmet ac
 ## Emmet actions
 Emmet actions may be very useful. For example:
 
-- [remove element](https://docs.emmet.io/actions/remove-tag/)
-- [select element content or whole element](https://docs.emmet.io/actions/match-pair/)
-- [iterate by edit points after the abbreviation is expanded](https://docs.emmet.io/actions/go-to-edit-point/)
-- [select a tag name and attributes to edit](https://docs.emmet.io/actions/select-item/)
-- [wrap some html-code with abbreviation](https://docs.emmet.io/actions/wrap-with-abbreviation/#wrap-with-abbreviation)
-- [wrap with abbreviation every line individually](https://docs.emmet.io/actions/wrap-with-abbreviation/#wrapping-individual-lines)
+- remove element 
+	- [Emmet docs demo](https://docs.emmet.io/actions/remove-tag/) 
+	- [demo below](#delete-tag-demo)
+- select element content or whole element or parent element (balance in/out)
+	- [Emmet docs demo](https://docs.emmet.io/actions/match-pair/) 
+	- [demo below](#balance-out-demo)
+- iterate by edit points after the abbreviation is expanded 
+	- [Emmet docs demo](https://docs.emmet.io/actions/go-to-edit-point/) 
+	- [demo below](#items-and-edit-points-demo)
+- select a tag name and attributes to edit 
+	- [Emmet docs demo](https://docs.emmet.io/actions/select-item/) 
+	- [demo below](#items-and-edit-points-demo)
+- wrap some html-code with abbreviation 
+	- [Emmet docs demo](https://docs.emmet.io/actions/wrap-with-abbreviation/#wrap-with-abbreviation) 
+	- [demo below](#wrap-everything-together)
+- wrap with abbreviation the every line individually 
+	- [Emmet docs demo](https://docs.emmet.io/actions/wrap-with-abbreviation/#wrapping-individual-lines)
+	- [demo below](#wrap-the-every-line-individually)
 - rename element
+	- [demo below](#rename-tag-demo)
 - and some other
 
-But you need some way to use Emmet actions. This extension will help you offered you a special keybindings and menu.
 
 ## In this extension:
 - Added a keybinding system for the most used commands. You may see the keybindings if you open the above submenu.
@@ -49,35 +61,37 @@ But you need some way to use Emmet actions. This extension will help you offered
 - Not all commands existing in the [Emmet documentation](https://docs.emmet.io/) have implemented in VS Code.
 - Assigned keybindings does not correspond to the keybindings of [Emmet documentation](https://docs.emmet.io/).
 
-## Demo
-### Balance out
+## Balance out demo
 ```Ctrl+Shift+A``` - Select the content of an element, then the element with tags, then the content of parent element, ect.
 
 ![Balance out](IMG/emmet-balance-out-01.gif)
 
-### Wrap with abbreviation 
-Creating a list from the some lines of text (```Alt+E, W```).
+## Wrap with abbreviation demo
 
-![Wrap](IMG/emmet-wrap-03.gif)
-
-Wrapping a piece of code in an HTML element (```Alt+E, W```).
+### Wrap everything together
+```Alt+E, W```
 
 ![Wrap](IMG/emmet-wrap-04.gif)
 
-### Rename tag 
+### Wrap the every line individually
+```Alt+E, W```
+
+![Wrap](IMG/emmet-wrap-03.gif)
+
+## Rename tag demo
 
 ```Alt+E, R```
 
 ![Rename](IMG/emmet-rename-01.gif)
 
-### Delete tag 
+## Delete tag demo
 
 ```Alt+E, D```
 
 ![Rename](IMG/emmet-delete-02.gif)
 ![Rename](IMG/emmet-delete-01.gif)
 
-### Items and edit points 
+## Items and edit points demo
 
 - ```Alt+<``` / ```Alt+>``` - Previous / next edit point.
 - ```Ctrl+Alt+<``` / ```Ctrl+Alt+>``` - Previous / next item.
