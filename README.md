@@ -6,8 +6,10 @@
 According to [Emmet documentation](https://docs.emmet.io/) Emmet has three base features:
 
 1. abbreviation expanding
-2. Emmet actions - text processing commands
+2. Emmet actions - the commands for advanced editing of HTML code
 3. Emmet snippets 
+
+We all know about the first feature, but I suggest you pay attention to Emmet actions.
 
 ## Emmet actions
 Emmet actions may be very useful. For example:
@@ -21,11 +23,11 @@ Emmet actions may be very useful. For example:
 - rename element
 - and some other
 
-But you need some way to use Emmet actions, and this extension will help you. This extension offers you a special menu in which you can see all Emmet commands that existed in VS Code and all the assigned keybindings.
+But you need some way to use Emmet actions. This extension will help you offered you a special keybindings and menu.
 
 ## In this extension:
-- Creates a submenu of the editor title menu with all existing in VS Code Emmet commands. 
 - Added a keybinding system for the most used commands. You may see the keybindings if you open the above submenu.
+- Creates a submenu of the editor title menu with all existing in VS Code Emmet commands. 
 - The titles of existing in VS Code command have changed to more understandable.
 - If you will add your own keybindings - you will see your keybindings in the above submenu.
 
@@ -47,7 +49,7 @@ But you need some way to use Emmet actions, and this extension will help you. Th
 - Not all commands existing in the [Emmet documentation](https://docs.emmet.io/) have implemented in VS Code.
 - Assigned keybindings does not correspond to the keybindings of [Emmet documentation](https://docs.emmet.io/).
 
-## Demos
+## Demo
 ### Balance out
 ```Ctrl+Shift+A``` - Select the content of an element, then the element with tags, then the content of parent element, ect.
 
