@@ -46,16 +46,18 @@ Emmet actions may be very useful. For example:
 ## Keybindings
 |   |   |
 | - | - |
-| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>E</kbd>                                                 | Expand abbreviation.           |
-| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd>                                             | Balance out.                   |
-| <kbd>Alt</kbd>+<kbd><</kbd> / <kbd>Alt</kbd>+<kbd>></kbd>                                 | Previous / next edit point.    |
-| <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd><</kbd> / <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>></kbd> | Previous / next item.          |
-| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>D</kbd>                                                 | Delete tag.                    |
-| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>R</kbd>                                                 | Rename tag.                    |
-| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>W</kbd>                                                 | Wrap with abbreviation.        |
-| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>M</kbd>                                                 | Merge lines.                   |
-| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>=</kbd>                                                 | Evaluate math expression.      |
-| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>Alt</kbd>+<kbd>/</kbd>                                  | Toggle comment (to HTML only). |
+| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>E</kbd>                | Expand abbreviation.           |
+| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd>            | Balance out.                   |
+| <kbd>Alt</kbd>+<kbd><</kbd>                              | Previous edit point.           |
+| <kbd>Alt</kbd>+<kbd>></kbd>                              | Next edit point.               |
+| <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd><</kbd>              | Previous item.                 |
+| <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>></kbd>              | Next item.                     |
+| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>D</kbd>                | Delete tag.                    |
+| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>R</kbd>                | Rename tag.                    |
+| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>W</kbd>                | Wrap with abbreviation.        |
+| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>M</kbd>                | Merge lines.                   |
+| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>=</kbd>                | Evaluate math expression.      |
+| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>Alt</kbd>+<kbd>/</kbd> | Toggle comment (to HTML only). |
 
 ## Notes:
 - Not all commands existing in the [Emmet documentation](https://docs.emmet.io/) have implemented in VS Code.
@@ -106,9 +108,7 @@ Emmet actions may be very useful. For example:
 | - | - |
 | <kbd>Alt</kbd>+<kbd><</kbd>                 | Previous edit point. |
 | <kbd>Alt</kbd>+<kbd>></kbd>                 | Next edit point.     |
-
-|   |   |
-| - | - |
+| &nbsp;                                      |                      |
 | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd><</kbd> | Previous item.       |
 | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>></kbd> | Next item.           |
 
@@ -118,34 +118,34 @@ Emmet actions may be very useful. For example:
 
 [![hr01]][hr01]
 
-| Keybinding                                               | Title                                         | Command                                             |
-| -------------------------------------------------------- | --------------------------------------------- | --------------------------------------------------- |
-| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>E</kbd>                | Emmet: Expand Abbreviation                    | ```editor.emmet.action.expandAbbreviation```        |
-|                                                          |                                               |                                                     |
-|                                                          | Emmet: HTML - Go to - Match Tag               | ```editor.emmet.action.matchTag```                  |
-| <kbd>Alt</kbd>+<kbd>&gt;</kbd>                           | Emmet: HTML - Go to - Next Edit Point         | ```editor.emmet.action.nextEditPoint```             |
-| <kbd>Alt</kbd>+<kbd>&lt;</kbd>                           | Emmet: HTML - Go to - Prev Edit Point         | ```editor.emmet.action.prevEditPoint```             |
-|                                                          |                                               |                                                     |
-|                                                          | Emmet: HTML - Select - Balance In             | ```editor.emmet.action.balanceIn```                 |
-| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd>            | Emmet: HTML - Select - Balance Out            | ```editor.emmet.action.balanceOut```                |
-| <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>&gt;</kbd>           | Emmet: HTML - Select - Next Item              | ```editor.emmet.action.selectNextItem```            |
-| <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>&lt;</kbd>           | Emmet: HTML - Select - Previous Item          | ```editor.emmet.action.selectPrevItem```            |
-|                                                          |                                               |                                                     |
-| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>D</kbd>                | Emmet: HTML - Delete Tag                      | ```editor.emmet.action.removeTag```                 |
-| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>R</kbd>                | Emmet: HTML - Rename Tag                      | ```editor.emmet.action.updateTag```                 |
-|                                                          | Emmet: HTML - Split / Join Tag                | ```editor.emmet.action.splitJoinTag```              |
-| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>Alt</kbd>+<kbd>/</kbd> | Emmet: HTML - Toggle Comment                  | ```editor.emmet.action.toggleComment```             |
-| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>W</kbd>                | Emmet: HTML - Wrap With Abbreviation          | ```editor.emmet.action.wrapWithAbbreviation```      |
-|                                                          |                                               |                                                     |
-| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>=</kbd>                | Emmet: Evaluate Math Expression               | ```editor.emmet.action.evaluateMathExpression```    |
-| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>M</kbd>                | Emmet: Merge Lines                            | ```editor.emmet.action.mergeLines```                |
-|                                                          | Emmet: Reflect CSS Value                      | ```editor.emmet.action.reflectCSSValue```           |
-|                                                          | Emmet: Update ImageSize                       | ```editor.emmet.action.updateImageSize```           |
-|                                                          |                                               |                                                     |
-|                                                          | Emmet: Number - Increment - By One            | ```editor.emmet.action.incrementNumberByOne```      |
-|                                                          | Emmet: Number - Increment - By One Tenth      | ```editor.emmet.action.incrementNumberByOneTenth``` |
-|                                                          | Emmet: Number - Increment - By Ten            | ```editor.emmet.action.incrementNumberByTen```      |
-|                                                          |                                               |                                                     |
-|                                                          | Emmet: Number - Decrement - By One            | ```editor.emmet.action.decrementNumberByOne```      |
-|                                                          | Emmet: Number - Decrement - By One Tenth      | ```editor.emmet.action.decrementNumberByOneTenth``` |
-|                                                          | Emmet: Number - Decrement - By Ten            | ```editor.emmet.action.decrementNumberByTen```      |
+| Keybinding                                               | Command / Title                                                                                                   |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>E</kbd>                | ```editor.emmet.action.expandAbbreviation```        <br/> Emmet: Expand Abbreviation                    |
+| &nbsp;                                                   |                                                                                                         |
+|                                                          | ```editor.emmet.action.matchTag```                  <br/> Emmet: HTML - Go to - Match Tag               |
+| <kbd>Alt</kbd>+<kbd>&gt;</kbd>                           | ```editor.emmet.action.nextEditPoint```             <br/> Emmet: HTML - Go to - Next Edit Point         |
+| <kbd>Alt</kbd>+<kbd>&lt;</kbd>                           | ```editor.emmet.action.prevEditPoint```             <br/> Emmet: HTML - Go to - Prev Edit Point         |
+| &nbsp;                                                   |                                                                                                         |
+|                                                          | ```editor.emmet.action.balanceIn```                 <br/> Emmet: HTML - Select - Balance In             |
+| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd>            | ```editor.emmet.action.balanceOut```                <br/> Emmet: HTML - Select - Balance Out            |
+| <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>&gt;</kbd>           | ```editor.emmet.action.selectNextItem```            <br/> Emmet: HTML - Select - Next Item              |
+| <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>&lt;</kbd>           | ```editor.emmet.action.selectPrevItem```            <br/> Emmet: HTML - Select - Previous Item          |
+| &nbsp;                                                   |                                                                                                         |
+| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>D</kbd>                | ```editor.emmet.action.removeTag```                 <br/> Emmet: HTML - Delete Tag                      |
+| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>R</kbd>                | ```editor.emmet.action.updateTag```                 <br/> Emmet: HTML - Rename Tag                      |
+|                                                          | ```editor.emmet.action.splitJoinTag```              <br/> Emmet: HTML - Split / Join Tag                |
+| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>Alt</kbd>+<kbd>/</kbd> | ```editor.emmet.action.toggleComment```             <br/> Emmet: HTML - Toggle Comment                  |
+| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>W</kbd>                | ```editor.emmet.action.wrapWithAbbreviation```      <br/> Emmet: HTML - Wrap With Abbreviation          |
+| &nbsp;                                                   |                                                                                                         |
+| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>=</kbd>                | ```editor.emmet.action.evaluateMathExpression```    <br/> Emmet: Evaluate Math Expression               |
+| <kbd>Alt</kbd>+<kbd>E</kbd>, <kbd>M</kbd>                | ```editor.emmet.action.mergeLines```                <br/> Emmet: Merge Lines                            |
+|                                                          | ```editor.emmet.action.reflectCSSValue```           <br/> Emmet: Reflect CSS Value                      |
+|                                                          | ```editor.emmet.action.updateImageSize```           <br/> Emmet: Update ImageSize                       |
+| &nbsp;                                                   |                                                                                                         |
+|                                                          | ```editor.emmet.action.incrementNumberByOne```      <br/> Emmet: Number - Increment - By One            |
+|                                                          | ```editor.emmet.action.incrementNumberByOneTenth``` <br/> Emmet: Number - Increment - By One Tenth      |
+|                                                          | ```editor.emmet.action.incrementNumberByTen```      <br/> Emmet: Number - Increment - By Ten            |
+| &nbsp;                                                   |                                                                                                         |
+|                                                          | ```editor.emmet.action.decrementNumberByOne```      <br/> Emmet: Number - Decrement - By One            |
+|                                                          | ```editor.emmet.action.decrementNumberByOneTenth``` <br/> Emmet: Number - Decrement - By One Tenth      |
+|                                                          | ```editor.emmet.action.decrementNumberByTen```      <br/> Emmet: Number - Decrement - By Ten            |
