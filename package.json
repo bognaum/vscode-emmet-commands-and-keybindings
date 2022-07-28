@@ -3,7 +3,7 @@
     "displayName": "Emmet commands and keybindings",
     "description": "Keybindings to Emmet actions. Menu of all Emmet actions.",
     "icon": "emmet-bognaum-4.png",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "publisher": "Bognaum",
     "repository": {
         "type": "git",
